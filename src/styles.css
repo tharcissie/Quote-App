@@ -9,7 +9,7 @@ body{
  background-position: right;
 }
 nav{
-    background-color:rgb(102, 255, 204) ;
+    background-colorrgb(0, 204, 136) ;
     color: azure;
 }
 .logo{
@@ -24,5 +24,8 @@ ul li a{
     color:white;
 }
 nav a{
+    color:white;
+}
+ul li a:hover{
     color:white;
 }
