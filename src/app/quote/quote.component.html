@@ -14,7 +14,7 @@
             </span>
             <p class="card-text"><small class="text-muted">Published By: {{quote.completeDate|date}}</small></p>
             <p class="card-text"><small class="text-muted">Created On: {{quote.completeDate|date}}</small></p>
-            <button class="btn btn-danger" (click)='toggleDetails(i)'>Details</button>
+            <button class="btn" (click)='toggleDetails(i)'>Details</button>
             <app-quote-details *ngIf='quote.showDescription' [quote]='quote' (isComplete)='deleteQuote($event,i)'>
             </app-quote-details>
           </div>
