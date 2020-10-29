@@ -9,20 +9,21 @@ body{
  background-position: right;
 }
 nav{
-    background-colorrgb(0, 204, 136) ;
+    background-color:rgb(102, 255, 204);
     color: azure;
 }
 .logo{
-    color:rgb(0, 128, 85);
-    font-size: 26px;
-    font-weight: 500;
+    color:#cc0099;
+    font-size: 30px;
+    
 }
 .navbar-brand{
-    font-weight: 500;
+    font-weight: 700;
 }
 
 ul li a{
     color:white;
+    font-weight: 700;
 }
 nav a{
     color:white;
@@ -31,5 +32,5 @@ nav a:hover{
     color:white;
 }
 ul li a:hover{
-    color:rgb(0, 128, 85);
+    color:#cc0099;
 }
