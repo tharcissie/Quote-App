@@ -14,7 +14,8 @@ nav{
 }
 .logo{
     color:rgb(230, 255, 250);
-    font-size: 16px;
+    font-size: 26px;
+    font-weight: 500;
 }
 .navbar-brand{
     font-weight: 500;
