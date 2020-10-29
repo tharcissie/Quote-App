@@ -26,6 +26,9 @@ ul li a{
 nav a{
     color:white;
 }
+nav a:hover{
+    color:white;
+}
 ul li a:hover{
     color:white;
 }
