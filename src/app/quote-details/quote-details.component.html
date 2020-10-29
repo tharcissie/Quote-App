@@ -1,8 +1,8 @@
 
-<div>
+<div class="pt-2">
 <p class="card-text"><small class="text-muted">Author: {{quote.author}}</small></p>
-<button class="btn btn1 mr-1" (click)='addlike()' >{{quote.like}}like</button>
-<button class="btn btn2" (click)='addislike()'>{{quote.dislike}}dislike </button>
+<a class="btn1 mr-1" (click)='addlike()' >{{quote.like}}like</a>
+<a class="btn2" (click)='addislike()'>{{quote.dislike}}dislike </a>
 <p class="card-text"><small class="text-muted">This quote was created {{quote.completeDate|dateCount}} days ago</small></p>
 <button class="btn btn-dark" (click)= 'quoteDelete(true)'>Delete Quote</button>
 </div>

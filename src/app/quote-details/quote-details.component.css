@@ -1,7 +1,9 @@
-.btn1{
-    background-color:rgb(102, 255, 204);
+.btn2{
+    color:rgb(102, 255, 204);
+    cursor: pointer;
 
 }
-.btn2{
-    background-color:rgb(0, 128, 85) ;
+.btn1{
+    color:#cc0099;
+    cursor: pointer;
 }
