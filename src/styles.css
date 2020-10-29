@@ -3,4 +3,26 @@
 
 body{  
  background-image: url(./assets/a.jpg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: right;
+}
+nav{
+    background-color:rgb(102, 255, 204) ;
+    color: azure;
+}
+.logo{
+    color:rgb(230, 255, 250);
+    font-size: 16px;
+}
+.navbar-brand{
+    font-weight: 500;
+}
+
+ul li a{
+    color:white;
+}
+nav a{
+    color:white;
 }
