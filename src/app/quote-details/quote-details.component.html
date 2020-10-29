@@ -1,1 +1,8 @@
-<p>quote-details works!</p>
+
+<div>
+<p class="card-text"><small class="text-muted">Author: {{quote.author}}</small></p>
+<button class="btn btn-success" (click)='addlike()' >{{quote.like}}like</button>
+<button class="btn btn-danger" (click)='addislike()'>{{quote.dislike}}dislike </button>
+<p class="card-text"><small class="text-muted">This quote was created {{quote.completeDate|dateCount}} days ago</small></p>
+<button class="btn btn-dark" (click)= 'quoteDelete(true)'>Delete Quote</button>
+</div>
