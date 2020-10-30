@@ -34,5 +34,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Support and contact details
 If anyone need support concerning the project or anything related, just reach out to tharcissieidufashe@gmail.com
 
+## Link to live site
+https://tharcissie.github.io/Quote-App/
+
 
 
