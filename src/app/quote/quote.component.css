@@ -1,8 +1,7 @@
 .btn{
-    background-color:#cc0099;
+    background-color:rgb(102, 255, 204);
     color:white;
 }
 .card{
-    border: 1px solid    rgb(104, 122, 116);
     box-shadow: 2px 3px 4px  rgb(175, 187, 185);
 }
